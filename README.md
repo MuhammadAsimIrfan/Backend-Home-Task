@@ -5,6 +5,7 @@ This project is a simple implementation of a RESTful API for money transfers, de
 The API allows users to send money from their account to other users' accounts and to an external withdrawal address. Additionally, users can track the progress of their operations.
 REST Architecture is followed, as well as Singleton Pattern is used for InMemoryDataStructure to keep it static across the application.
 Also CompletableFuture in combination with ExecutorService is used to make the service available to multiple systems concurrently, and atomicity has been maintained through proper locking where necessary to avoid potential race conditions.
+This build manager used is maven and framework used is Spark. Please refer to pom.xml for dependencies
 
 **Functional API Endpoints Exposed:**
 -------------------------------------------------------------------------------------------------------------
